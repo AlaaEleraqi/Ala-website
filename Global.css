@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#background {
+    background-image: linear-gradient(rgba(15, 149, 209, .1), rgba(15, 149, 209, .5));
+    color: #023047;
+    letter-spacing: 0.5rem;
+    padding: 3rem;
+    border: .5px dashed #fff;
+    margin: 1 rem;
+    text-align: center; 
+}
+
+h2 {
+    color: #0081a7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: normal;
+    font-weight: 700;
+}
+
+.navigationcontent {
+   /* This font is an option if needed
+   font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    text-decoration:none;
+    color:#fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgba(red, green, blue, 0);
+    padding: 1.5rem;
+    padding-block: 1rem;
+    padding-bottom: 0.5rem;
+    padding-block-end: 1rem;
+    display:inline-flex;
+    font-size: 1rem;
+}
+
+h1 {
+    color: aliceblue;
+    background-image: url("../Ala-website/Assignment1_Bg2.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30rem;
+    padding: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 1.5rem rgb(236, 244, 237);
+    font-weight: 700;
+}
+
+#Wrapper {
+    /* This part if I want to Add a background image to the whole page*/
+    background-image: linear-gradient(rgba(15, 149, 209, .1), rgba(15, 149, 209, .5));
+}
+
+/* This part to add an opacity to the background. Run when needed
+.layer {
+    background-color: rgba(#000, #000, #000, .5);
+}*/
+
+#personal-information-section {
+    background-color: white;
+    background-image: linear-gradient(rgba(220, 139, 9, 0.1), rgba(220, 139, 9, .5));
+    padding: 3rem;
+    border: .5px dashed #fff;
+    margin: 1 rem;
+    text-align: center;
+    color: #023047;
+    letter-spacing: 0.5rem;
+    
+}
+
+#career-goals {
+    background-color: white;
+    background-image: linear-gradient(rgba(15, 149, 209, .1), rgba(15, 149, 209, .5));
+    padding: 3rem;
+    border: .5px dashed #fff;
+    margin: 1 rem;
+    text-align: center;
+    color: #023047;
+    letter-spacing: 0.5rem;
+}
+
+#portfolio {
+    padding: 3rem;
+    border: .5px dashed #fff;
+    margin: 1 rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(15, 149, 209, .1), rgba(15, 149, 209, .5));
+    color: #023047;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;  
+}
+
+.footer-link {
+    display: flex;
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(15, 149, 209, .1), rgba(15, 149, 209, .5));
+    color: #023047;
+    letter-spacing: 0.5rem;
+    border-style:none;
+    border-color:#a53860;
+    background-color:#da627d;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
